@@ -1,93 +1,75 @@
-a:link {
-    text-decoration: none;
-    color:#483D8B;
+.heading{
+	width: 50%;
+	margin: 30px auto;
+	text-align: center;
+	color: 	#6B8E23;
+	background: #FFF8DC;
+	border: 2px solid #6B8E23;
+	border-radius: 20px;
+}
+form {
+	width: 50%; 
+	margin: 30px auto; 
+	border-radius: 5px; 
+	padding: 10px;
+	background: #FFF8DC;
+	border: 1px solid #6B8E23;
+}
+form p {
+	color: red;
+	margin: 0px;
+}
+.task_input {
+	width: 75%;
+	height: 15px; 
+	padding: 10px;
+	border: 2px solid #6B8E23;
+}
+.add_btn {
+	height: 39px;
+	background: #FFF8DC;
+	color: 	#6B8E23;
+	border: 2px solid #6B8E23;
+	border-radius: 5px; 
+	padding: 5px 20px;
 }
 
-a:visited {
-    text-decoration: none;
-color:#483D8B;
+table {
+    width: 50%;
+    margin: 30px auto;
+    border-collapse: collapse;
 }
 
-a:hover {
-    text-decoration: none;
+tr {
+	border-bottom: 1px solid #cbcbcb;
 }
 
-a:active {
-    text-decoration: none;
+th {
+	font-size: 19px;
+	color: #6B8E23;
 }
 
-#calendar-container{
-    padding: 12px;
-    width: 273px;
-    height: 320px;
-    text-align: center;
-    border: 1px solid #eee;
-    border-radius: 10px;
-    font-size: 21px;
-    font-family: Arial;
-    background-image: linear-gradient(#fff, #d3d3d3);
-}
-
-#calendar-container>div{
+th, td{
+	border: none;
+    height: 30px;
     padding: 2px;
-    margin-bottom: 10px;
 }
 
-#calendar-header{ background-image:  radial-gradient(#46E0FE, #33B8C1); height:35px
-;}
-#calendar-month-year{
-    margin: 5px; font-size: 28px; font-family: Matura MT Script Capitals;}
+tr:hover {
+	background: #E9E9E9;
+}
 
+.task {
+	text-align: left;
+}
 
-#calendar-dates0>table>tr>td{
-    padding: 7px;
-text-align: center;
+.delete{
+	text-align: center;
 }
-#week{
-    padding: 7px;
-text-align: center;
- color:#D9370E;}
-#calendar-dates1>table>tr>td{
-    padding: 7px;
-text-align: center;
-}
-#calendar-dates2>table>tr>td{
-    padding: 7px;
-text-align: center;
-}
-#calendar-dates3>table>tr>td{
-    padding: 7px;
-text-align: center;
-}
-#calendar-dates4>table>tr>td{
-    padding: 7px;
-text-align: center;
-}
-#calendar-dates5>table>tr>td{
-    padding: 7px;
-text-align: center;
-}
-#calendar-dates6>table>tr>td{
-    padding: 7px;
-text-align: center;
-}
-#calendar-dates7>table>tr>td{
-    padding: 7px;
-text-align: center;
-}
-#calendar-dates8>table>tr>td{
-    padding: 7px;
-text-align: center;
-}
-#calendar-dates9>table>tr>td{
-    padding: 7px;
-text-align: center;
-}
-#calendar-dates10>table>tr>td{
-    padding: 7px;
-text-align: center;
-}
-#calendar-dates11>table>tr>td{
-    padding: 7px;
-text-align: center;
+.delete a{
+	color: white;
+	background: #a52a2a;
+	padding: 1px 6px;
+	border-radius: 3px;
+	text-decoration: none;
 }
