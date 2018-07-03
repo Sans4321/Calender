@@ -1,5 +1,6 @@
 <?php
 	include 'databaseconnection.php';
+	//include 'hashing.php';
 
 $First_name = $_POST['First_name'];
 $Last_name = $_POST['Last_name'];

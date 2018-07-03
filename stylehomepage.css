@@ -1,13 +1,53 @@
+body
+{               width:100%;
 
-a:link {
-    text-decoration: none;
-    color:#483D8B;
+    height:100vh;
+
+                 font-family: arial black;
+
+	background-size: cover;
+	background-position: center;
+                margin: 0px auto;
 }
 
-a:visited {
-    text-decoration: none;
-color:#483D8B;
+.topnav {
+  overflow: hidden;
+width:100%;
+background-color: black;
+margin: 0px auto;
+
+
 }
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #18951D;
+  text-align: center;
+  padding: 12px 16px;
+  text-decoration: none;
+  font-size: 20px;
+ font-family: arial black;
+
+}
+.topnav a:link{
+text-decoration: none;
+color: #18951D;
+}
+.topnav a:visited{
+text-decoration: none;
+color: #18951D;
+}
+.topnav a:hover{
+background-image: radial-gradient(#18951D, #0BB510);
+
+  color: black;
+}
+a:link, a:visited {
+text-decoration: none;
+color: black;
+}
+
 
 a:hover {
     text-decoration: none;
@@ -26,15 +66,14 @@ a:active {
     border-radius: 10px;
     font-size: 21px;
     font-family: Arial;
-    background-image: linear-gradient(#fff, #d3d3d3);
-}
+    background-image: linear-gradient(#fff, #d3d3d3);}
 
 #calendar-container>div{
     padding: 2px;
     margin-bottom: 10px;
 }
 
-#calendar-header{ background-image:  radial-gradient(#46E0FE, #33B8C1); height:35px
+#calendar-header{ background-image:  radial-gradient(#0BB510, #18951D); height:35px
 ;}
 #calendar-month-year{
     margin: 5px; font-size: 28px; font-family: Matura MT Script Capitals;}

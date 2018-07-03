@@ -13,7 +13,10 @@ if (!$row = $result->fetch_assoc()) {
 }
 else {
   echo "Logged in";
-  header("Location: homepage.php");
+	//starting session
+	//session_start();
+	//$_SESSION["username"]=
+  header("Location: homepage.html");
 
 }
 

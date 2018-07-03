@@ -118,7 +118,7 @@ var a = document.createElement('a');
 
 a.setAttribute("id",c);
 
-a.setAttribute("href","")
+a.setAttribute("href","images.php")
 a.innerHTML = count;
 
 
@@ -154,7 +154,7 @@ var a = document.createElement('a');
 
 a.setAttribute("id",c);
 
-a.setAttribute("href","")
+a.setAttribute("href","images.php")
 a.innerHTML = count;
 
 

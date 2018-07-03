@@ -1,4 +1,5 @@
 <?php
+
   $msg ="";
   //pressing upload button
   if (isset($_POST['upload'])) {
@@ -11,8 +12,9 @@
     //getting submitted datanfrom form
     $image = $_FILES['image']['name'];
     $text = $_POST['text'];
+    $Date = $_POST['Date'];
 
-    $sql = "INSERT INTO images (image, text) VALUES ('$image','$text' )";
+    $sql = "INSERT INTO images (Date, image, text) VALUES ('$Date','$image','$text' )";
     mysqli_query($db, $sql);//stores submitted data into database
 
     //saving in folder
@@ -48,7 +50,12 @@
       <div>
         <input type="submit" name="upload" value= "upload image">
       </div>
+      <div>
+        <input type="text" name="Date" placeholder="Date in format DDMMYYYY">
+      </div>
+
     </form>
+    
   </div>
 </head>
 </html>
