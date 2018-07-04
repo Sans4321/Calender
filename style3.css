@@ -1,0 +1,61 @@
+body
+{               width:100%;
+    
+    height:auto;
+                overflow: auto;
+                 font-family: arial black;
+background-image: url(pine.jpg);
+	
+	background-size: cover;
+	background-position: center;
+                margin: 0px auto;
+        background-color: #;
+}
+.imgbtn{
+
+    border: none;
+    color: ;
+    padding: 15px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 2px 2px;
+    cursor: pointer;
+border: 2px solid #000;
+}
+#content{
+align:center;
+width: 740px;
+height: 580px;
+background-image: url(page.jpg);
+background-size: cover;
+background-position: center;
+margin-left: 310px;
+margin-top: 50px;
+padding: 0px;
+border: 0px solid #460606;
+border-radius: 4px;
+}
+#abc{
+
+position: relative;
+    left: 420px;
+    top: 15px;
+}
+textarea {
+    
+overflow: auto;
+    background-image: url(open.jpg);
+background-size: cover;
+background-position: center;
+    
+font-family: Lucida handwriting;
+
+    box-sizing: border-box;
+    border: 0px solid #ccc;
+    border-radius: 4px;
+    background-color: #;
+    font-size: 16px;
+    resize: none;
+}
