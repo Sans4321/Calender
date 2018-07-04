@@ -33,6 +33,9 @@
 <html>
 <head>
   <title>IMAGE UPLOAD</title>
+  <link type="text/css" rel="stylesheet" href="style3.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 </body>
   <div id="content">
@@ -41,12 +44,12 @@
       <div>
         <input type="file" name="image">
       </div>
-      <div>
-        <textarea name="text" cols="40" rows="4" placeholder="How was your day">
+      <div id="abc">
+        <textarea name="text" cols="25" rows="17" placeholder="How was your day">
         </textarea>
       </div>
       <div>
-        <input type="submit" name="upload" value= "upload image">
+        <button class="imgbtn" name="upload"><i class="fa fa-image" style="font-size:24px"></i></button>
       </div>
     </form>
   </div>
