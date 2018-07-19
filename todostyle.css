@@ -1,0 +1,111 @@
+body
+{               width:100%;
+    
+    height:;
+                overflow: auto;
+                 font-family: arial black;
+background-image: url(cork.jpg);
+	
+	background-size: ;
+	background-position: ;
+             margin: 0px auto;
+}
+#stpg{
+background-image: url(pc3.png);
+	background-size: cover;
+	background-position: ;
+width: 726px;
+height: 625px;
+margin-left: 300px;
+margin-top: 65px;
+
+}
+
+
+.heading{
+	width: 50%;
+	margin-left: 40px;
+	text-align: center;
+	color: 	#FF0000;
+	font-family: Segoe Print;
+	border: 0px solid #6B8E23;
+	border-radius: px;
+font-size: 20px;
+padding-top: 80px;
+padding-left: 20px;
+padding-bottom: 0px;
+ text-decoration: underline double;
+text-decoration-style: ;
+}
+form {
+	width: 60%;
+	margin: 30px auto;
+	border-radius: 0px;
+	padding-left: 70px;
+	background: #;
+	border: 0px solid #000;
+}
+form p {
+	color: red;
+	margin-left: 10px;
+padding: 0px;
+}
+.task_input {
+	width: 50%;
+	height: 15px;
+	padding: 10px;
+	border: 2px solid #6B8E23;
+}
+.add_btn {
+	height: 39px;
+	background: #;
+	color: 	#000;
+              
+font-size: 16px;
+	border: 2px solid #6B8E23;
+	border-radius: 0px;
+	padding: 10px 20px;
+}
+
+table {
+    width: 50%;
+    margin: 10px auto;
+    border-collapse: collapse;
+
+}
+
+tr {
+	border-bottom: 1px solid #cbcbcb;
+}
+
+th {
+	font-size: 19px;
+	color: #6B8E23;
+}
+
+th, td{      
+	border: none;
+    height: 30px;
+    padding: 2px;
+}
+td{
+font-family: Segoe Print;
+}
+tr:hover {
+	background: #E9E9E9;
+}
+
+.task {
+	text-align: left;
+}
+
+.delete{
+	text-align: center;
+}
+.delete a{
+	color: white;
+	background: #a52a2a;
+	padding: 1px 6px;
+	border-radius: 3px;
+	text-decoration: none;
+}
