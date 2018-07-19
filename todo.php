@@ -23,11 +23,11 @@
 <head>
 
 	<title>To Do List 	</title>
-	<link rel="stylesheet" type="text/css" href="styletodo.css">
+	<link rel="stylesheet" type="text/css" href="todostyle.css">
 </head>
-<body>
+<body><div id="stpg">
 	<div class="heading">
-		<h2 style="font-style: 'Hervetica';">ToDo List </h2>
+		<h2 style="font-style: 'Hervetica';">To Do List: </h2>
 	</div>
 	<form method="post" action="todo.php" class="input_form">
 	<?php if (isset($errors)) { ?>
@@ -60,5 +60,6 @@
 		<?php $i++; } ?>
 	</tbody>
 </table>
+	</div>
 </body>
 </html>
